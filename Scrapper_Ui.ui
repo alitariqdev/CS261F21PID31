@@ -312,11 +312,6 @@ border-radius:
     </row>
     <column>
      <property name="text">
-      <string>Sr #</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
       <string>Title</string>
      </property>
     </column>
@@ -333,6 +328,11 @@ border-radius:
     <column>
      <property name="text">
       <string>Price</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>No of Bedrooms</string>
      </property>
     </column>
     <column>
