@@ -169,6 +169,9 @@ border-radius: 10px;</string>
      <height>21</height>
     </rect>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="styleSheet">
     <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(12, 34, 97);</string>
@@ -199,6 +202,9 @@ color: rgb(12, 34, 97);</string>
      <height>22</height>
     </rect>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <item>
     <property name="text">
      <string>L I N K</string>
@@ -213,6 +219,9 @@ color: rgb(12, 34, 97);</string>
      <width>161</width>
      <height>21</height>
     </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
    </property>
    <property name="styleSheet">
     <string notr="true">font: 75 13pt &quot;MS Shell Dlg 2&quot;;
@@ -347,6 +356,9 @@ border-radius:
      <height>51</height>
     </rect>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="styleSheet">
     <string notr="true">image: url(:/newPrefix/data.png);</string>
    </property>
@@ -362,6 +374,9 @@ border-radius:
      <width>47</width>
      <height>51</height>
     </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
    </property>
    <property name="styleSheet">
     <string notr="true">image: url(:/newPrefix/search.png);</string>
@@ -394,6 +409,9 @@ border-radius: 10px;</string>
       <height>51</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="styleSheet">
      <string notr="true">image: url(:/newPrefix/play.png);</string>
     </property>
@@ -410,6 +428,9 @@ border-radius: 10px;</string>
       <height>51</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="styleSheet">
      <string notr="true">image: url(:/newPrefix/pause.png);</string>
     </property>
@@ -425,6 +446,9 @@ border-radius: 10px;</string>
       <width>61</width>
       <height>51</height>
      </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
      <string notr="true">image: url(:/newPrefix/stop.png);</string>
@@ -475,6 +499,9 @@ font: 100 8pt &quot;MS Shell Dlg 2&quot;;
       <width>141</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(255, 255, 255);</string>
@@ -556,6 +583,9 @@ font: 100 8pt &quot;MS Shell Dlg 2&quot;;
       <height>31</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
@@ -599,6 +629,9 @@ font: 100 8pt &quot;MS Shell Dlg 2&quot;;
       <height>17</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
@@ -615,6 +648,9 @@ font: 100 8pt &quot;MS Shell Dlg 2&quot;;
       <height>17</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
@@ -630,6 +666,9 @@ font: 100 8pt &quot;MS Shell Dlg 2&quot;;
       <width>47</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
      <string notr="true">image: url(:/newPrefix/sort1.png);
@@ -648,6 +687,9 @@ image: url(:/newPrefix/sort2.png);</string>
      <width>101</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
    </property>
    <item>
     <property name="text">
@@ -680,20 +722,26 @@ image: url(:/newPrefix/sort2.png);</string>
     </property>
    </item>
   </widget>
-  <widget class="QComboBox" name="comboBox_5">
+  <widget class="QLineEdit" name="lineEdit_2">
    <property name="geometry">
     <rect>
      <x>260</x>
      <y>240</y>
-     <width>401</width>
-     <height>22</height>
+     <width>441</width>
+     <height>21</height>
     </rect>
    </property>
-   <item>
-    <property name="text">
-     <string>D A T A</string>
-    </property>
-   </item>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+border: 0.8px solid rgb(0,0,0);
+border-radius: 6px</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>  Search</string>
+   </property>
   </widget>
  </widget>
  <resources>
